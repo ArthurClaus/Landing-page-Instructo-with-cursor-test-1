@@ -69,4 +69,4 @@ Le site est entièrement responsive et s'adapte à tous les appareils, des tél�
 
 ## 📄 Licence
 
-Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails. 
+Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
