@@ -51,18 +51,22 @@ function App() {
             {/* Page d'accueil */}
             <Route path="/" element={
               <Layout>
+                <Navbar />
                 <Home />
+                <Footer />
               </Layout>
             } />
             
             {/* Routes d'authentification */}
             <Route path="/login" element={
               <Layout showFooter={false} showNavbar={true}>
+                <Navbar />
                 <Login />
               </Layout>
             } />
             <Route path="/register" element={
               <Layout showFooter={false} showNavbar={true}>
+                <Navbar />
                 <Register />
               </Layout>
             } />
@@ -70,12 +74,16 @@ function App() {
             {/* Pages légales */}
             <Route path="/terms" element={
               <Layout>
+                <Navbar />
                 <Terms />
+                <Footer />
               </Layout>
             } />
             <Route path="/privacy" element={
               <Layout>
+                <Navbar />
                 <Privacy />
+                <Footer />
               </Layout>
             } />
             

@@ -1,10 +1,9 @@
 import { useState, useEffect } from 'react';
-import useMediaQuery from '../hooks/useMediaQuery';
+// import useMediaQuery from '../hooks/useMediaQuery';
 import './Navbar.css';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const isMobile = useMediaQuery('(max-width: 768px)');
   const [isScrolled, setIsScrolled] = useState(false);
 
   const toggleMenu = () => {
