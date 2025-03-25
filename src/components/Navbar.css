@@ -164,6 +164,11 @@
     visibility: visible;
   }
 
+  .navbar-links.open .navbar-link {
+    color: #04203d;
+    font-weight: 600;
+  }
+
   .navbar-link.login {
     margin-left: 0;
   }
