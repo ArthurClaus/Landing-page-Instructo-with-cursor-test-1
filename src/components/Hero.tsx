@@ -23,19 +23,16 @@ const Hero = () => {
           }}>
             Voir les fonctionnalités
           </a>
-          <a href="https://Instructo.be" className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+          <a href="https://chat.Instructo.be" className="btn btn-primary" target="_blank" rel="noopener noreferrer">
             Commencer
           </a>
         </div>
 
         <div className="social-proof">
-          <div className="avatar-group">
-            <div className="avatar" style={{ backgroundColor: '#4F46E5' }}></div>
-            <div className="avatar" style={{ backgroundColor: '#FB923C' }}></div>
-            <div className="avatar" style={{ backgroundColor: '#16A34A' }}></div>
-            <div className="avatar" style={{ backgroundColor: '#06B6D4' }}></div>
+          <div className="tutor-image-placeholder" id="tutor-image-container">
+            <img src="/tuteur_instructo_image.svg" alt="Tuteur Instructo" className="tutor-image" />
           </div>
-          <p className="social-proof-text">Apprécié par plus d'un million d'apprenants</p>
+          <p className="social-proof-text">Utilisé par des centaines d'étudiants partout en Belgique</p>
         </div>
 
         <div className="video-demo">

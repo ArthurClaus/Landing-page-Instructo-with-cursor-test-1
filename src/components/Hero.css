@@ -74,20 +74,33 @@
 }
 
 .avatar-group {
-  display: flex;
-  align-items: center;
+  display: none;
 }
 
 .avatar {
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 50%;
-  border: 2px solid #fff;
-  margin-left: -0.75rem;
+  display: none;
 }
 
-.avatar:first-child {
-  margin-left: 0;
+.tutor-image-placeholder {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.tutor-image-placeholder::after {
+  display: none;
+}
+
+.tutor-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .social-proof-text {
