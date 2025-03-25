@@ -1,19 +1,12 @@
 {
   "version": 2,
-  "builds": [
+  "buildCommand": "chmod +x vercel-build.sh && ./vercel-build.sh",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "rewrites": [
     {
-      "src": "package.json",
-      "use": "@vercel/node",
-      "config": {
-        "installCommand": "npm install",
-        "buildCommand": "npm run build"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 } 
