@@ -1,12 +1,12 @@
 /* Variables pour le thème clair (par défaut) */
 :root, .light {
-  --color-primary: #4f46e5;
-  --color-primary-hover: #4338ca;
-  --color-secondary: #10b981;
-  --color-success: #10b981;
+  --color-primary: #3a67f7;
+  --color-primary-hover: #2954e5;
+  --color-secondary: #00d6b9;
+  --color-success: #00d6b9;
   --color-warning: #f59e0b;
   --color-danger: #ef4444;
-  --color-info: #3b82f6;
+  --color-info: #3a67f7;
 
   --color-text: #1f2937;
   --color-text-light: #6b7280;
@@ -21,6 +21,9 @@
   
   --color-card: #ffffff;
   --color-card-hover: #ffffff;
+
+  --color-header-bg: #04203d;
+  --color-header-text: #ffffff;
 
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
@@ -39,13 +42,13 @@
 
 /* Variables pour le thème sombre */
 .dark {
-  --color-primary: #6366f1;
-  --color-primary-hover: #818cf8;
-  --color-secondary: #34d399;
-  --color-success: #34d399;
+  --color-primary: #3a67f7;
+  --color-primary-hover: #5b80f9;
+  --color-secondary: #00d6b9;
+  --color-success: #00d6b9;
   --color-warning: #fbbf24;
   --color-danger: #f87171;
-  --color-info: #60a5fa;
+  --color-info: #3a67f7;
 
   --color-text: #f9fafb;
   --color-text-light: #e5e7eb;
@@ -60,6 +63,9 @@
   
   --color-card: #1f2937;
   --color-card-hover: #374151;
+
+  --color-header-bg: #04203d;
+  --color-header-text: #ffffff;
 
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
   --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
@@ -319,7 +325,6 @@ body {
   margin: 0 auto;
   padding: 0 1rem;
 }
-
 .btn {
   display: inline-block;
   padding: 0.75rem 1.5rem;

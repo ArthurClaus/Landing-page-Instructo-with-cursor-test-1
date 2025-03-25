@@ -1,10 +1,10 @@
 .footer {
-  background-color: var(--background-alt);
+  background-color: var(--color-header-bg);
+  color: var(--color-header-text);
   padding: 5rem 0 2rem;
-  color: var(--text-color);
-  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
   margin-top: 2rem;
-  box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.2);
 }
 
 .footer-content {
@@ -30,8 +30,15 @@
   color: var(--primary-color);
 }
 
+.logo-image {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
 .footer-description {
-  color: var(--text-light);
+  color: rgba(255, 255, 255, 0.8);
   margin-bottom: 1.5rem;
   line-height: 1.6;
 }
@@ -48,14 +55,14 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: var(--background-color);
-  color: var(--text-color);
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--color-header-text);
   transition: all 0.2s ease;
 }
 
 .social-link:hover {
-  background-color: var(--primary-color);
-  color: white;
+  background-color: var(--color-secondary);
+  color: var(--color-header-bg);
   transform: translateY(-3px);
 }
 
@@ -75,6 +82,7 @@
   font-size: 1.125rem;
   margin-bottom: 1.25rem;
   font-weight: 600;
+  color: var(--color-header-text);
 }
 
 .footer-links-list {
@@ -86,12 +94,12 @@
 }
 
 .footer-links-list a {
-  color: var(--text-light);
+  color: rgba(255, 255, 255, 0.8);
   transition: color 0.2s ease;
 }
 
 .footer-links-list a:hover {
-  color: var(--primary-color);
+  color: var(--color-secondary);
 }
 
 .footer-bottom {
@@ -103,16 +111,16 @@
 }
 
 .footer-copyright {
-  color: var(--text-light);
+  color: rgba(255, 255, 255, 0.7);
   font-size: 0.875rem;
 }
 
 .language-selector {
   padding: 0.5rem 1rem;
   border-radius: var(--radius);
-  border: 1px solid var(--border-color);
-  background-color: var(--background-color);
-  color: var(--text-color);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--color-header-text);
   font-size: 0.875rem;
   cursor: pointer;
   transition: border-color 0.2s ease;
@@ -120,7 +128,7 @@
 
 .language-selector:focus {
   outline: none;
-  border-color: var(--primary-color);
+  border-color: var(--color-secondary);
 }
 
 @media (min-width: 640px) {

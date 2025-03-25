@@ -11,8 +11,11 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-brand">
             <div className="footer-logo">
-              <span className="logo-text">Instructo</span>
-              <span className="logo-dot">.</span>
+              <img 
+                src="/Instructo_logo.svg" 
+                alt="Instructo"
+                className="logo-image"
+              />
             </div>
             <p className="footer-description">
               Votre tuteur IA personnel pour apprendre plus rapidement et plus efficacement.

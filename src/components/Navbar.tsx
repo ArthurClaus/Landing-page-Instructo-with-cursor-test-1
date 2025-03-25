@@ -50,8 +50,11 @@ const Navbar = () => {
       <div className="container navbar-container">
         <div className="navbar-logo">
           <a href="#" onClick={scrollToTop}>
-            <span className="logo-text">Instructo</span>
-            <span className="logo-dot">.</span>
+            <img 
+              src="/Instructo_logo.svg" 
+              alt="Instructo"
+              className="logo-image"
+            />
           </a>
         </div>
 
@@ -84,7 +87,7 @@ const Navbar = () => {
           ))}
           
           <a 
-            href="https://Instructo.be" 
+            href="https://chat.Instructo.be" 
             className="btn btn-primary navbar-button"
             target="_blank"
             rel="noopener noreferrer"

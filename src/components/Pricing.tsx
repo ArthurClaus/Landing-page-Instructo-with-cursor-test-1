@@ -15,25 +15,27 @@ const Pricing = () => {
       monthlyPrice: 0,
       annualPrice: 0,
       features: [
-        '2 chats IA / jour (inclut des chats précis avec Learn+)',
-        '3 fichiers ou liens YouTube / jour',
-        'Téléchargez des PDF, chacun jusqu\'à 120 pages / 20 Mo',
-        '1 conférence enregistrée / jour'
+        '5 chats AI / jour',
+        '3 quiz / mois',
+        '3 PDFs / mois', 
+        'Téléchargez des PDFs, jusqu\'à 120 pages / 20 MB en taille',
+        'Obtenez Instructo Freemium'
       ],
       cta: 'Commencer gratuitement',
       highlighted: false
     },
     {
-      name: 'Pro (annuel)',
+      name: 'Pro (annuel)', 
       description: 'Apprenez au plus haut niveau.',
       monthlyPrice: 9.99,
       annualPrice: 6.99,
       features: [
-        'Chats IA illimités (inclut 100 / mois avec Learn+)',
-        'PDFs ou liens YouTube illimités',
-        'Téléchargez des PDF, chacun jusqu\'à 2000 pages / 50 Mo',
-        '40 conférences enregistrées / mois',
-        'Accès au mode vocal avancé en bêta'
+        'Chats AI illimités',
+        'Quiz illimités',
+        'PDFs illimités',
+        'Accès au prompt Optimizer',
+        'Accès à la Prompt library',
+        'Téléchargez des PDFs, jusqu\'à 2000 pages / 50 MB en taille'
       ],
       cta: 'Choisir Pro',
       highlighted: true
@@ -57,7 +59,7 @@ const Pricing = () => {
             <input type="checkbox" checked={isAnnual} onChange={togglePricing} />
             <span className="slider round"></span>
           </label>
-          <span className={isAnnual ? 'active' : ''}>Annuel <span className="discount">-20%</span></span>
+          <span className={isAnnual ? 'active' : ''}>Annuel <span className="discount">-30%</span></span>
         </div>
 
         <div className="pricing-plans">
